@@ -1,0 +1,29 @@
+1.
+select ?s where {
+  ?s <http://www.w3.org/2001/vcard-rdf/3.0#FN> "John Smith" .
+}
+limit 100
+
+2.
+PREFIX info: <http://somewhere/peopleInfo#> 
+SELECT ?Age WHERE {?x info:age ?Age} 
+
+3.
+PREFIX info: <http://somewhere/peopleInfo#>
+PREFIX vCard: <http://www.w3.org/2001/vcard-rdf/3.0#>
+SELECT ?Age ?FullNames WHERE {?x info:age ?Age. ?x vCard:FN ?FullNames} 
+
+4.
+SELECT ?o ?o2 WHERE { 
+?s <http://www.w3.org/2001/vcard-rdf/3.0#FN> ?o.
+?s <http://somewhere/peopleInfo#age> ?o2. FILTER (?o2 = "23")          
+}
+
+5.
+PREFIX vCard: <http://www.w3.org/2001/vcard-rdf/3.0#>
+PREFIX info: <http://somewhere/peopleInfo#>
+SELECT ?gn WHERE { 
+?s vCard:FN ?o.
+?s info:age ?o2.
+?s vCard:N ?bn.
+?bn vCard:Given ?gn. }

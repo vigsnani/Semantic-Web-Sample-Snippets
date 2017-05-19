@@ -1,0 +1,34 @@
+<http://utdallas/semclass#KevinLates> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "Kevin L. Ates" .
+<http://utdallas/semclass#KevinLates> <http://www.w3.org/2001/vcard-rdf/3.0#TITLE> "Part Time Lecturer" .
+<http://utdallas/semclass#KevinLates> <http://www.w3.org/2001/vcard-rdf/3.0#BDAY> "April 1,1901" .
+<http://utdallas/semclass#KevinLates> <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL> "atescomp@utdallas.edu" .
+<http://utdallas/semclass/edu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/PersonalProfileDocument> .
+<http://utdallas/semclass/edu> <http://xmlns.com/foaf/0.1/maker> <http://utdallas/semclass/edu#me> .
+<http://utdallas/semclass/edu> <http://xmlns.com/foaf/0.1/primaryTopic> <http://utdallas/semclass/edu#me> .
+<http://utdallas/semclass/edu> <http://webns.net/mvcb/generatorAgent> <http://www.ldodds.com/foaf/foaf-a-matic> .
+<http://utdallas/semclass/edu> <http://webns.net/mvcb/errorReportsTo> <mailto:leigh@ldodds.com> .
+<http://utdallas/semclass/edu#me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://utdallas/semclass/edu#me> <http://xmlns.com/foaf/0.1/name> "Nitesh Srivatsav" .
+<http://utdallas/semclass/edu#me> <http://xmlns.com/foaf/0.1/title> "Mr" .
+<http://utdallas/semclass/edu#me> <http://xmlns.com/foaf/0.1/givenname> "Nitesh" .
+<http://utdallas/semclass/edu#me> <http://xmlns.com/foaf/0.1/family_name> "Srivatsav" .
+<http://utdallas/semclass/edu#me> <http://xmlns.com/foaf/0.1/nick> "Nits" .
+<http://utdallas/semclass/edu#me> <http://xmlns.com/foaf/0.1/mbox_sha1sum> "ad1ae99872cd317eca51c8d6604aae104c6a125c" .
+<http://utdallas/semclass/edu#me> <http://xmlns.com/foaf/0.1/homepage> <http://utdallas/semclass/abc.jpg> .
+<http://utdallas/semclass/edu#me> <http://xmlns.com/foaf/0.1/depiction> <http://utdallas/semclass/abc> .
+<http://utdallas/semclass/edu#me> <http://xmlns.com/foaf/0.1/phone> <tel:123456789> .
+<http://utdallas/semclass/edu#me> <http://xmlns.com/foaf/0.1/workplaceHomepage> <http://utdallas/semclass/UTD> .
+<http://utdallas/semclass/edu#me> <http://xmlns.com/foaf/0.1/workInfoHomepage> <http://utdallas/semclass/UTD> .
+<http://utdallas/semclass/edu#me> <http://xmlns.com/foaf/0.1/schoolHomepage> <http://utdallas/semclass/UTD> .
+<http://utdallas/semclass/edu#me> <http://xmlns.com/foaf/0.1/knows> _:B4c13bd20X3A159d3179eedX3AX2D7fff .
+<http://utdallas/semclass/edu#me> <http://xmlns.com/foaf/0.1/knows> _:B4c13bd20X3A159d3179eedX3AX2D7ffe .
+<http://utdallas/semclass/edu#me> <http://xmlns.com/foaf/0.1/knows> _:B4c13bd20X3A159d3179eedX3AX2D7ffd .
+_:B4c13bd20X3A159d3179eedX3AX2D7fff <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:B4c13bd20X3A159d3179eedX3AX2D7fff <http://xmlns.com/foaf/0.1/name> "Messi" .
+_:B4c13bd20X3A159d3179eedX3AX2D7fff <http://xmlns.com/foaf/0.1/mbox_sha1sum> "273ff72e23f1dad1a746cc74ed70d2c4ad56df39" .
+_:B4c13bd20X3A159d3179eedX3AX2D7ffe <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:B4c13bd20X3A159d3179eedX3AX2D7ffe <http://xmlns.com/foaf/0.1/name> "Ronaldo" .
+_:B4c13bd20X3A159d3179eedX3AX2D7ffe <http://xmlns.com/foaf/0.1/mbox_sha1sum> "7a92c0db82b40665443c922d02e33e81509311ab" .
+_:B4c13bd20X3A159d3179eedX3AX2D7ffd <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:B4c13bd20X3A159d3179eedX3AX2D7ffd <http://xmlns.com/foaf/0.1/name> "Kevin" .
+_:B4c13bd20X3A159d3179eedX3AX2D7ffd <http://xmlns.com/foaf/0.1/mbox_sha1sum> "7b91d6ccae0fefae70598e04826ab4a0f34af1d9" .

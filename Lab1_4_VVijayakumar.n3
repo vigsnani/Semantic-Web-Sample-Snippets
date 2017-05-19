@@ -1,0 +1,50 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix admin: <http://webns.net/mvcb/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+<http://utdallas/semclass#KevenLAtes>
+        <http://utdallas/semclass#KevenLAtesp>
+                "Lab 1 " ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#BDAY>
+                " April 1, 1901" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL>
+                "atescomp@utdallas.edu" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "Keven L. Ates" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#TITLE>
+                "Parttime Lecturer" .
+
+<http://utdallas/semclass/edu>
+        a                     foaf:PersonalProfileDocument ;
+        admin:errorReportsTo  <mailto:leigh@ldodds.com> ;
+        admin:generatorAgent  <http://www.ldodds.com/foaf/foaf-a-matic> ;
+        foaf:maker            <http://utdallas/semclass/edu#me> ;
+        foaf:primaryTopic     <http://utdallas/semclass/edu#me> .
+
+<http://utdallas/semclass/edu#me>
+        a                       foaf:Person ;
+        foaf:depiction          <http://utdallas/semclass/abc> ;
+        foaf:family_name        "Vijay" ;
+        foaf:givenname          "Vignesh" ;
+        foaf:homepage           <http://utdallas/semclass/abc.jpg> ;
+        foaf:knows              [ a                  foaf:Person ;
+                                  foaf:mbox_sha1sum  "273ff72e23f1dad1a746cc74ed70d2c4ad56df39" ;
+                                  foaf:name          "Nitesh"
+                                ] ;
+        foaf:knows              [ a                  foaf:Person ;
+                                  foaf:mbox_sha1sum  "7a92c0db82b40665443c922d02e33e81509311ab" ;
+                                  foaf:name          "Srini"
+                                ] ;
+        foaf:knows              [ a                  foaf:Person ;
+                                  foaf:mbox_sha1sum  "7b91d6ccae0fefae70598e04826ab4a0f34af1d9" ;
+                                  foaf:name          "Arun"
+                                ] ;
+        foaf:mbox_sha1sum       "ad1ae99872cd317eca51c8d6604aae104c6a125c" ;
+        foaf:name               "Vignesh Vijay" ;
+        foaf:nick               "Vigs" ;
+        foaf:phone              <tel:123456789> ;
+        foaf:schoolHomepage     <http://utdallas/semclass/UTD> ;
+        foaf:title              "Mr" ;
+        foaf:workInfoHomepage   <http://utdallas/semclass/UTD> ;
+        foaf:workplaceHomepage  <http://utdallas/semclass/UTD> .
